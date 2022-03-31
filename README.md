@@ -6,17 +6,17 @@ exceptions. The gender data had to be altered with a calculated field in Tableau
 In addition to this, the tripduration was converted from an integer to datetime format using Pandas to_datetime function, and the converted values were saved into a new 
 column (converted tripduration). 
 ## Results
-* [Checkout Times for Users]() displays the trip duration for each use of a bike. Most trips are five to six minutes long.
-* [Checkout Times by Gender]() breaksdown the checkout times by each gender. Most bikes are checked out by men and usually for about five minutes whereas women typically
+* [Checkout Times for Users](https://github.com/MDaily7/bikeshare/blob/main/Images/Checkout_Times_for_User.png) displays the trip duration for each use of a bike. Most trips are five to six minutes long.
+* [Checkout Times by Gender](https://github.com/MDaily7/bikeshare/blob/main/Images/Checkout_Times_by_Gender.png) breaksdown the checkout times by each gender. Most bikes are checked out by men and usually for about five minutes whereas women typically
 checked out bikes for six minutes. 
-* [Use Times]() are illustrated by two visualizations. The first is a heatmap showing that the peak hours are about 8am and 6pm with a decent amount of usage between those 
+* [Use Times](https://github.com/MDaily7/bikeshare/blob/main/Images/Peak_Hours.png) are illustrated by two visualizations. The first is a heatmap showing that the peak hours are about 8am and 6pm with a decent amount of usage between those 
 hours. There is more usage between those hours on the weekend. The bar graph further illustrates the peak hours are generally 8am and 6pm. 
-* [Use Times by Gender]() Shows that men and women are generally using bikes at around the same times. Men use them more, and will use them later then women generally do, 
+* [Use Times by Gender](https://github.com/MDaily7/bikeshare/blob/main/Images/Trips_by_Gender_Heatmap.PNG) Shows that men and women are generally using bikes at around the same times. Men use them more, and will use them later then women generally do, 
 but a fair amount of usage hours overlap. 
-* [Use by User type and Gender]() Continues to display that men are using the bikes more. Additionally, this figure shows that subscribers are using the bikes far more than
+* [Use by User type and Gender](https://github.com/MDaily7/bikeshare/blob/main/Images/User_Trips_by_Gender.PNG) Continues to display that men are using the bikes more. Additionally, this figure shows that subscribers are using the bikes far more than
 non-subscribers. 
-* [Gender Breakdown]() is a pie chart illustrating that the user base is predominately male. 
-* [Bike Utilization]() shows the total tripduration for each bikeid for all of the uses of the bike. Circle size increases as the sum of trip duration increases. 
+* [Gender Breakdown](https://github.com/MDaily7/bikeshare/blob/main/Images/Gender_Breakdown.PNG) is a pie chart illustrating that the user base is predominately male. 
+* [Bike Utilization](https://github.com/MDaily7/bikeshare/blob/main/Images/Bike_Utilization.PNG) shows the total tripduration for each bikeid for all of the uses of the bike. Circle size increases as the sum of trip duration increases. 
 ## Summary
 Looking at the various visualizations, it is clear that men are the predominate users of the bikeshare. Additionally, peak hours tend to be before and after standard work 
 hours during the week. Whereas, on the weekends, usage is more evenly distributed likely becuase fewer people are working. A small portion of bikes are used far more than 
@@ -28,7 +28,7 @@ useful to include displays about the demographics of the new city that provide c
 average amount of use by age indicates that people in their forties do not use the bikeshare much and the new city is largely populated by people in their forties, this 
 would be an important detail to share with investors. 
 ## Resources
-* [Images]()
+* [Images](https://github.com/MDaily7/bikeshare/tree/main/Images)
 * [Data Source](https://www.citibikenyc.com/system-data), the 201908-citibike-tripdata.csv was used in this project
-* [Jupyter Notebook]() used to convert the tripduration into datetime 
+* [Jupyter Notebook](https://github.com/MDaily7/bikeshare/blob/main/Resources/NYC_Citibike_Challenge.ipynb) used to convert the tripduration into datetime 
 * [Tableau Public Link](https://public.tableau.com/app/profile/michael2532/viz/NYC_Citibike_Challenge_Dashboard/BikeShareStory?publish=yes)
