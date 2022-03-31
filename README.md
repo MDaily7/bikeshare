@@ -3,7 +3,7 @@
 The purpose of this project was to gain experience with Tableau by generating several visuals and a storyboard with New York City bikeshare data. The proposed scenario is
 that these visualizations would be used as a case to investors for a bikeshare in another city. Most visualizations were created directly from the downloaded dataset with two 
 exceptions. The gender data had to be altered with a calculated field in Tableau so that the numerical representations were converted to their respective genders. 
-In addition to this, the tripduration was converted from an integer to datetime format using Pandas to_datetime function, and the converted values were saved into a new 
+In addition to this, the trip duration was converted from an integer to datetime format using Pandas to_datetime function, and the converted values were saved into a new 
 column (converted tripduration). 
 ## Results
 * [Checkout Times for Users](https://github.com/MDaily7/bikeshare/blob/main/Images/Checkout_Times_for_User.png) displays the trip duration for each use of a bike. Most trips are five to six minutes long.
